@@ -7,6 +7,55 @@
       "id": 1
     }
   ],
-  "products": [],
+  "products": [
+    {
+      "product": "Hambúrguer",
+      "category": "Sanduíches",
+      "price": 14.0,
+      "image": "https://i.ibb.co/p4M2Qyn/hamburguer.png"
+    },
+    {
+      "product": "X-Burguer",
+      "category": "Sanduíches",
+      "price": 16.0,
+      "image": "https://i.ibb.co/p2vJ3XJ/xburguer.png"
+    },
+    {
+      "product": "Big-Kenzie",
+      "category": "Sanduíches",
+      "price": 18.0,
+      "image": "https://i.ibb.co/NV33p51/big-kenzie.png"
+    },
+    {
+      "product": "Combo Kenzie",
+      "category": "Combos",
+      "price": 26.0,
+      "image": "https://i.ibb.co/1MvDZcZ/combo.png"
+    },
+    {
+      "product": "Fanta Guaraná",
+      "category": "Bebidas",
+      "price": 5.0,
+      "image": "https://i.ibb.co/KmpR4wV/fanta.png"
+    },
+    {
+      "product": "Coca Cola",
+      "category": "Bebidas",
+      "price": 7.0,
+      "image": "https://i.ibb.co/VVzHnHJ/coca.png"
+    },
+    {
+      "product": "McShake Ovomaltine",
+      "category": "Sobremesas",
+      "price": 10.0,
+      "image": "https://i.ibb.co/wJf5Sbf/mcshake.png"
+    },
+    {
+      "product": "McSunday Ovomaltine",
+      "category": "Sobremesas",
+      "price": 10.0,
+      "image": "https://i.ibb.co/qFtQNFs/mcsunday.png"
+    }
+  ],
   "cart": []
 }
