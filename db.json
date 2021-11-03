@@ -11,50 +11,58 @@
     {
       "product": "Hamburguer",
       "category": "Sanduíches",
-      "price": 14.0,
-      "image": "https://i.ibb.co/p4M2Qyn/hamburguer.png"
+      "price": 14,
+      "image": "https://i.ibb.co/p4M2Qyn/hamburguer.png",
+      "quantity": 1
     },
     {
       "product": "X-Burguer",
       "category": "Sanduíches",
-      "price": 16.0,
-      "image": "https://i.ibb.co/p2vJ3XJ/xburguer.png"
+      "price": 16,
+      "image": "https://i.ibb.co/p2vJ3XJ/xburguer.png",
+      "quantity": 1
     },
     {
       "product": "Big-Kenzie",
       "category": "Sanduíches",
-      "price": 18.0,
-      "image": "https://i.ibb.co/NV33p51/big-kenzie.png"
+      "price": 18,
+      "image": "https://i.ibb.co/NV33p51/big-kenzie.png",
+      "quantity": 1
     },
     {
       "product": "Combo Kenzie",
       "category": "Combos",
-      "price": 26.0,
-      "image": "https://i.ibb.co/1MvDZcZ/combo.png"
+      "price": 26,
+      "image": "https://i.ibb.co/1MvDZcZ/combo.png",
+      "quantity": 1
     },
     {
       "product": "Fanta Guaraná",
       "category": "Bebidas",
-      "price": 5.0,
-      "image": "https://i.ibb.co/KmpR4wV/fanta.png"
+      "price": 5,
+      "image": "https://i.ibb.co/KmpR4wV/fanta.png",
+      "quantity": 1
     },
     {
       "product": "Coca Cola",
       "category": "Bebidas",
-      "price": 7.0,
-      "image": "https://i.ibb.co/VVzHnHJ/coca.png"
+      "price": 7,
+      "image": "https://i.ibb.co/VVzHnHJ/coca.png",
+      "quantity": 1
     },
     {
       "product": "McShake Ovomaltine",
       "category": "Sobremesas",
-      "price": 10.0,
-      "image": "https://i.ibb.co/wJf5Sbf/mcshake.png"
+      "price": 10,
+      "image": "https://i.ibb.co/wJf5Sbf/mcshake.png",
+      "quantity": 1
     },
     {
       "product": "McSunday Ovomaltine",
       "category": "Sobremesas",
-      "price": 10.0,
-      "image": "https://i.ibb.co/qFtQNFs/mcsunday.png"
+      "price": 10,
+      "image": "https://i.ibb.co/qFtQNFs/mcsunday.png",
+      "quantity": 1
     }
   ],
   "cart": []
