@@ -2,7 +2,7 @@
 
 Assim como a documentação do JSON-Server-Auth traz (https://www.npmjs.com/package/json-server-auth), existem 3 endpoints que podem ser utilizados para cadastro e 2 endpoints que podem ser usados para login.
 
-Além disso, também existem mais 7 endpoints, 1 para listar os usuários cadastrados, 3 para cadastrar produtos, visualizar produtos cadastrados, e deletar produtos, e mais 3 para cadastrar produtos no carrinho, visualizar produtos cadastrados no carrinho, e deletar produtos cadastrados no carrinho.
+Além disso, também existem mais 8 endpoints, 1 para listar os usuários cadastrados, 3 para cadastrar produtos, visualizar produtos cadastrados, e deletar produtos, e mais 4 para cadastrar produtos no carrinho, visualizar produtos cadastrados no carrinho, editar dados dos produtos no carrinho, e deletar produtos cadastrados no carrinho.
 
 ### Cadastro
 
@@ -74,4 +74,10 @@ A requisição POST /cart pode ser usada para cadastrar novos produtos no carrin
 
 Já a requisição GET /cart pode ser usada pra listar todos os produtos já cadastrados no carrinho. Qualquer usuário logado pode listar os produtos cadastrados no carrinho, bastando apenas que informe o Bearer Token no cabeçalho da requisição (Authorization: Bearer {token}).
 
-Por sua vez, a requisição DEL /cart/:idDoProduto: pode ser usada para deletar um produto cadastrado no carrinho. Qualquer usuário logado pode deletar um produto do carrinho, bastando apenas que informe o Bearer Token no cabeçalho da requisição (Authorization: Bearer {token}), e passe o id do produto na url da requisição.
+por sua vez, a requisição PATCH /cart/:idDoProduto: pode ser usada para editar um dado do produto. Qualquer usuário logado pode editar um dado de um produto no carrinho, bastando apenas que informe o Bearer Token no cabeçalho da requisição (Authorization: Bearer {token}), e passe no corpo da requisição os novos dados do produto a serem editados, como, por exemplo:
+
+{ <br/>
+"price": 6.00
+}
+
+Por último, a requisição DEL /cart/:idDoProduto: pode ser usada para deletar um produto cadastrado no carrinho. Qualquer usuário logado pode deletar um produto do carrinho, bastando apenas que informe o Bearer Token no cabeçalho da requisição (Authorization: Bearer {token}), e passe o id do produto na url da requisição.
